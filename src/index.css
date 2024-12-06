@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Inter', sans-serif; /* Apply custom font (make sure to include it in your project) */
+  background-color: #f9fafb; /* Light background color */
+  color: #374151; /* Default text color */
+}
+
+html {
+  scroll-behavior: smooth;
+}
